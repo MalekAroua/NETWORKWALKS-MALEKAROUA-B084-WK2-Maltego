@@ -114,24 +114,31 @@ The main goals of these practical labs are:
 ### 5. CLI Infrastructure Verification 
 ![CLI Infrastructure](./screenshots/cli.png)
 
-💡 What I Learned
-The Power of Passive OSINT & Link Analysis: Graphical mapping allows security analysts to visualize complex relationships between abstract domains, raw IP addresses, subnets, and organization entities in a unified workspace without sending active probes.
+## 💡 What I Learned
 
-Resource & Quota Adaptability: Relying solely on paid or credit-restricted CTI API feeds can stall an investigation. Knowing how to seamlessly pivot to open-source CLI utilities (whois, dig, nslookup) ensures continuous reconnaissance without data gaps.
+1. **The Power of Passive OSINT & Link Analysis:**  
+   Graphical mapping allows security analysts to visualize complex relationships between abstract domains, raw IP addresses, subnets, and organization entities in a unified workspace without sending active probes.
 
-Contextual Evaluation of Privacy Services: Identifying domain privacy protection features (such as GoDaddy privacy proxies) does not inherently indicate malicious intent; rather, it is a standard privacy practice used by legitimate web administrators to shield personal contact details from scrapers.
+2. **Resource & Quota Adaptability:**  
+   Relying solely on paid or credit-restricted CTI API feeds can stall an investigation. Knowing how to seamlessly pivot to open-source CLI utilities (`whois`, `dig`, `nslookup`) ensures continuous reconnaissance without data gaps.
 
-End-to-End Pivoting Methodology: Mastered the structural flow of infrastructure reconnaissance, stepping logically from target domain name down to hosting provider networks:
+3. **Contextual Evaluation of Privacy Services:**  
+   Identifying domain privacy protection features (such as GoDaddy privacy proxies) does not inherently indicate malicious intent; rather, it is a standard privacy practice used by legitimate web administrators to shield personal contact details from scrapers.
 
-Target Domain  --->  IP Address  --->  CIDR Subnet Range  --->  AS Infrastructure Owner
-🔗 Resources & References
-NetworkWalks Cybersecurity Curriculum (Batch B084)
+4. **End-to-End Pivoting Methodology:**  
+   Mastered the structural flow of infrastructure reconnaissance, stepping logically from target domain name down to hosting provider networks:
 
-Maltego Official Documentation & Transform Hub: https://docs.maltego.com/
+   ```text
+   Target Domain  --->  IP Address  --->  CIDR Subnet Range  --->  AS Infrastructure Owner
 
-ARIN / WHOIS IP Lookup Registry: https://whois.arin.net/
+  ## 🔗 Resources & References
+- **NetworkWalks Cybersecurity Curriculum (Batch B084)**
+- **Maltego Official Documentation & Transform Hub:** https://docs.maltego.com/
+- **ARIN / WHOIS IP Lookup Registry:** https://whois.arin.net/
 
-👤 Author
-Malek Aroua
+---
 
-Computer Networks Graduate | Cybersecurity Specialist
+## 👤 Author
+**Malek Aroua**  
+Computer Networks Graduate | Cybersecurity Specialist  
+*Project completed as part of the NetworkWalks Cybersecurity Certification Program (Batch B084).*
