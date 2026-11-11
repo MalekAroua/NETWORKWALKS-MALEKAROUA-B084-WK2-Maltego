@@ -141,4 +141,3 @@ The main goals of these practical labs are:
 ## 👤 Author
 **Malek Aroua**  
 Computer Networks Graduate | Cybersecurity Specialist  
-*Project completed as part of the NetworkWalks Cybersecurity Certification Program (Batch B084).*
