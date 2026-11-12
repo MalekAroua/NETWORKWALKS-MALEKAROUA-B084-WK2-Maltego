@@ -1,4 +1,4 @@
-# 🛡️ NETWORKWALKS-MALEKAROUA-B084-WK3-MALTEGO-OSINT
+# 🛡️ NETWORKWALKS-MALEKAROUA-B084-WK2-MALTEGO-OSINT
 
 Building practical OSINT reconnaissance, Maltego link analysis, and passive infrastructure footprinting capabilities
 
